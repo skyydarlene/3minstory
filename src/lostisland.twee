@@ -1,0 +1,54 @@
+:: StoryData
+{
+    "ifid": "BF32EF0F-09E6-4F5D-B786-1115DCD9B548",
+    "format": "SugarCube",
+    "format-version": "2.36.1"
+}
+
+::StoryTitle
+FateIsland
+
+::Start
+You and your friends rented a boat for the day and are heading to an island. You're excited to be relaxing on the beach for the day with your friends.
+
+Once you arive, you all decide to play vollyball in the sand. 
+
+While you're playing vollyball, you see something floating along the shore. [[Go pick it up]] or [[Point it out to one of your friends]]
+
+:: Go pick it up
+There's writing on it. [[Read it]] or [[throw]] the object further into the water, hoping the tide will take it away. 
+
+:: Read it
+You've read the words outloud, you look up from the object and notice your friends are gone. The boat is also missing. You look around and relize you're on a different island entirely. 
+
+You start to look around the island. Go [[left]] or [[right]]?
+
+:: left 
+While you're walking, you get a weird feeling that someone is following you. You pick up the pace untill your running at full speed. When you turn around to see if anyone's there, you trip and hit your head. You pass out.
+
+<<fadein 10s>>When you wake up and try to move, you soon find out that you're stuck. You're tied to the base of a big oak tree.<</fadein>>
+
+:: right
+While you're walking you notice a building through the treeline. You decide to take a closer look. before you can get too close, you feel a sharp pain on your neck, and start to feel dizy. You pass out. 
+
+<<fadein 10s>>When you wake up and try to move, you soon find out that you're stuck. You're tied to the base of a big oak tree.<</fadein>>
+
+:: throw
+You've returned to hanging out with your friends. About an hour has gone by and something shinny has caught your eye. This time you decide to [[investigate]].
+
+:: investigate
+After touching the object your surrondings chage and you relize you're on a different island by yourself.
+
+:: Point it out to one of your friends
+Your friend goes to investigate the object. When you turn around to ask her about it, she's gone. 
+[["She's fine" and you continue hanging out with your friends]]
+[[You grow worried and go look for your friend]]
+
+:: "She's fine" and you continue hanging out with your friends
+About an hour has gone by and something shinny has caught your eye. This time you decide to [[investigate]].
+
+:: You grow worried and go look for your friend
+You find the object that you told her about but shes no where around. You pick up the object, notice the writing and [[read it outloud.]]
+
+:: read it outloud. 
+You look up from the object and see your missing friend crying. At the same time she notices you, you relize that the two of you are on a different island without the boat or the rest of your friends.
